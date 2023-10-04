@@ -1,0 +1,150 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-0f5ee92e2d63afc18",
+                    "InstanceId": "i-023f923f65ec5bd22",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "demo",
+                    "LaunchTime": "2023-10-04T07:04:14+00:00",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "ap-south-1a",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-33-80.ap-south-1.compute.internal",
+                    "PrivateIpAddress": "172.31.33.80",
+                    "ProductCodes": [],
+                    "PublicDnsName": "",
+                    "State": {
+                        "Code": 80,
+                        "Name": "stopped"
+                    },
+                    "StateTransitionReason": "User initiated (2023-10-04 07:06:07 GMT)",
+                    "SubnetId": "subnet-0eba2bff0085e56b6",
+                    "VpcId": "vpc-050c16237371b9528",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2023-10-03T17:26:55+00:00",
+                                "DeleteOnTermination": true,
+                                "Status": "attached",
+                                "VolumeId": "vol-01e755a59812bf5bf"
+                            }
+                        }
+                    ],
+                    "ClientToken": "106ccc8a-f9c6-46b4-80e1-e7b157370c9a",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "NetworkInterfaces": [
+                        {
+                            "Attachment": {
+                                "AttachTime": "2023-10-03T17:26:54+00:00",
+                                "AttachmentId": "eni-attach-0e266d9dbd93d861e",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "NetworkCardIndex": 0
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-0da5458d63b94c8c2"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:d1:10:a2:44:c4",
+                            "NetworkInterfaceId": "eni-0ce4948153478b7aa",
+                            "OwnerId": "481320752671",
+                            "PrivateDnsName": "ip-172-31-33-80.ap-south-1.compute.internal",
+                            "PrivateIpAddress": "172.31.33.80",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-33-80.ap-south-1.compute.internal",
+                                    "PrivateIpAddress": "172.31.33.80"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-0eba2bff0085e56b6",
+                            "VpcId": "vpc-050c16237371b9528",
+                            "InterfaceType": "interface"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-0da5458d63b94c8c2"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "StateReason": {
+                        "Code": "Client.UserInitiatedShutdown",
+                        "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+                    },
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "First Server"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    },
+                    "MetadataOptions": {
+                        "State": "applied",
+                        "HttpTokens": "optional",
+                        "HttpPutResponseHopLimit": 1,
+                        "HttpEndpoint": "enabled",
+                        "HttpProtocolIpv6": "disabled",
+                        "InstanceMetadataTags": "disabled"
+                    },
+                    "EnclaveOptions": {
+                        "Enabled": false
+                    },
+                    "PlatformDetails": "Linux/UNIX",
+                    "UsageOperation": "RunInstances",
+                    "UsageOperationUpdateTime": "2023-10-03T17:26:54+00:00",
+                    "PrivateDnsNameOptions": {
+                        "HostnameType": "ip-name",
+                        "EnableResourceNameDnsARecord": true,
+                        "EnableResourceNameDnsAAAARecord": false
+                    },
+                    "MaintenanceOptions": {
+                        "AutoRecovery": "default"
+                    },
+                    "CurrentInstanceBootMode": "legacy-bios"
+                }
+            ],
+            "OwnerId": "481320752671",
+            "ReservationId": "r-093c55f5ea485a789"
+        }
+    ]
+}
+{
+    "Functions": []
+}
+{
+    "Users": []
+}
