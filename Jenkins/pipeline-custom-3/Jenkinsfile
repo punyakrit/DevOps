@@ -1,0 +1,31 @@
+pipeline{
+    agent any
+
+    stages{
+        stage('First Pass'){
+            steps{
+                echo 'First Pass of Pipeline'
+            }
+        }
+        stage('Second Pass'){
+            steps{
+                echo 'Second pass'
+            }
+        }
+        stage('Build'){
+            steps{
+                echo 'Build Success'
+            }
+        }
+        stage('Test'){
+            steps{
+                echo 'Test Success'
+            }
+        }
+        stage('Deploy'){
+            steps{
+                echo 'Deploy Success'
+            }
+        }
+    }
+}
